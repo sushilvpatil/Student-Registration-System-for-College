@@ -1,0 +1,198 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{6E4EA344-12C9-4EDC-98F7-612CFE54CD46}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>BCA_project</RootNamespace>
+    <AssemblyName>BCA_project</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="About us.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="About us.Designer.cs">
+      <DependentUpon>About us.cs</DependentUpon>
+    </Compile>
+    <Compile Include="contact us.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="contact us.Designer.cs">
+      <DependentUpon>contact us.cs</DependentUpon>
+    </Compile>
+    <Compile Include="copyof course available.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="copyof course available.Designer.cs">
+      <DependentUpon>copyof course available.cs</DependentUpon>
+    </Compile>
+    <Compile Include="course availalble.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="course availalble.Designer.cs">
+      <DependentUpon>course availalble.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Fee payment.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Fee payment.Designer.cs">
+      <DependentUpon>Fee payment.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="loginpage .cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="loginpage .Designer.cs">
+      <DependentUpon>loginpage .cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ragisterer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ragisterer.Designer.cs">
+      <DependentUpon>ragisterer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="screen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="screen.Designer.cs">
+      <DependentUpon>screen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="skipfor now.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="skipfor now.Designer.cs">
+      <DependentUpon>skipfor now.cs</DependentUpon>
+    </Compile>
+    <Compile Include="student help.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="student help.Designer.cs">
+      <DependentUpon>student help.cs</DependentUpon>
+    </Compile>
+    <Compile Include="student2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="student2.Designer.cs">
+      <DependentUpon>student2.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="About us.resx">
+      <DependentUpon>About us.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="contact us.resx">
+      <DependentUpon>contact us.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="copyof course available.resx">
+      <DependentUpon>copyof course available.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="course availalble.resx">
+      <DependentUpon>course availalble.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Fee payment.resx">
+      <DependentUpon>Fee payment.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="loginpage .resx">
+      <DependentUpon>loginpage .cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="ragisterer.resx">
+      <DependentUpon>ragisterer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="screen.resx">
+      <DependentUpon>screen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="skipfor now.resx">
+      <DependentUpon>skipfor now.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="student help.resx">
+      <DependentUpon>student help.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="student2.resx">
+      <DependentUpon>student2.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\group-g8340c14f0_1280.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
